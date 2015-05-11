@@ -1,0 +1,108 @@
+*, *::before, *
+
+.tshirt{
+
+	padding:1.5rem;
+	_webkit-animation: fadeInAndDown .5s ease both;
+}
+
+@keyframes fadeInAndDown {
+	0%{
+		opacity: 0;
+		transform: translateY(-2rem);
+	}
+
+	100%{
+		opacity: 0;
+		transform: translateY(0px);
+	}
+}
+
+.tshirt > *:first-child{
+	position:relative;
+
+}
+
+.tshirt > *:first-child img: {
+
+	position: absolute;
+	top: 0;
+	right: 0;
+
+}
+
+.tshirt > *:first-child img:nth-child(2){
+	flex-grow:1;
+	position: relative;
+
+}
+
+.tshirt > *:nth-child(2) > *:last-child
+{	
+ display: flex;
+ border: 1px solid currentColor ;
+position: relative;
+
+} 
+
+.tshirt > *:nth-child(2) > *:hover .hover{
+
+	webkit-animation: fadeInHover;
+}
+
+@webkit-keyFrames: fadeInHover;
+
+.tshirt > *:nth-child(2) > *:last-child: after{
+
+}
+
+
+.tshirt > *:nth-child(2){
+
+}
+
+
+.tshirt > *:nth-child(2){
+
+}
+.container{
+
+}
+
+.hover {
+	position: absolute;
+	bottom: 100%;
+	left:50%;
+	transform: translateX(-50%);
+	background: red;
+	border: 1px solid currentColor;
+	padding: 5px
+	opacity:;
+}
+
+.sizes-hover {
+	text-align: center;
+}
+
+.sizes-hover p {
+	text-indent: 0;
+}
+
+.colors-hover div {
+	display: flex;
+
+
+}
+.colors-hover div:nth-child(1) > span:nth-child(1) {
+
+	flex-grow:1;
+	width:40px;
+}
+.colors-hover div:nth-child(2) > span:nth-child(2){}
+}
+.colors-hover span ::after {
+
+}
+
+
+}
